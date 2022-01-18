@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pytorch3d-gouraud-failure"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.8"
+torch = "1.9.0"
+torchvision = "0.10.0"
+torchaudio = "0.9.0"
+fvcore = "^0.1.5"
+iopath = "^0.1.9"
+ninja = "^1.10.2"
+matplotlib = "^3.5.1"
+tqdm = "^4.62.3"
+Pillow = "^9.0.0"
+kornia = "^0.6.2"
+ftfy = "^6.0.3"
+regex = "^2021.11.10"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+ipykernel = "^6.6.1"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
